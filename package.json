@@ -1,7 +1,7 @@
 {
-  "name": "my-webpack-project",
+  "name": "functional",
   "author": "jin",
-  "description": "My webpack project",
+  "description": "my functional playground",
   "packageManager": "yarn@3.2.0",
   "lint-staged": {
     "*.{ts}": [
