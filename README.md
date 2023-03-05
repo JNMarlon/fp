@@ -1,1 +1,1 @@
-### functional
+### functional-typescript playground
