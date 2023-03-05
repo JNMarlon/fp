@@ -18,18 +18,6 @@ export function isIterator<T = unknown>(
   return typeof (_ as any)?.next === "function";
 }
 
-export function _toIterator<T>(iterable: Iterable<T> | AsyncIterable<T>) {
-  if (isIterable(iterable)) {
-    return iterable[Symbol.iterator]();
-  }
-  if (isAsyncIterable(iterable)) {
-    return iterable[Symbol.asyncIterator]();
-  }
-  throw new TypeError(
-    "toIterator: iterable must be type of Iterable or AsyncIterable"
-  );
-}
-
 export function toIterator<T>(_: Iterable<T> | AsyncIterable<T>) {
   if (isIterable(_)) return _[Symbol.iterator]();
 
