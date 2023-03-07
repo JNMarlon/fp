@@ -1,7 +1,7 @@
 import type { Curry } from "./@types/@curry";
 
-export const curry = <F extends (...args: any[]) => any>(f: F): Curry<F> => {
-  const arity = f.length;
+const curry = <F extends (...args: any[]) => any>(f: F): Curry<F> => {
+  const arity = f.length; // number of args
 
   return (function resolver(...args: any[]) {
     const memory = [...args];
@@ -15,3 +15,4 @@ export const curry = <F extends (...args: any[]) => any>(f: F): Curry<F> => {
     };
   })();
 };
+export default curry;

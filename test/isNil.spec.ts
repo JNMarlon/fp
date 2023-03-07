@@ -12,10 +12,10 @@ describe("isNullable", () => {
     expect(r3).toEqual(false);
 
     const r4 = isNil("testing!");
-    expect(r3).toEqual(false);
+    expect(r4).toEqual(false);
 
     const r5 = isNil({});
-    expect(r4).toEqual(false);
+    expect(r5).toEqual(false);
 
     const r6 = isNil(Symbol("symbol"));
     expect(r6).toEqual(false);

@@ -1,5 +1,5 @@
 {
-  "name": "functional",
+  "name": "fp-ts",
   "author": "jin",
   "description": "my functional playground",
   "packageManager": "yarn@3.2.0",
