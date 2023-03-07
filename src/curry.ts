@@ -1,4 +1,4 @@
-import type { Curry } from "./@types/@curry";
+import type { Curry } from "./@type/@curry";
 
 const curry = <F extends (...args: any[]) => any>(f: F): Curry<F> => {
   const arity = f.length; // number of args
