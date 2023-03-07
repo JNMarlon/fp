@@ -14,4 +14,5 @@ const isNil = <T>(a: T): a is Nullable<T> => {
  * nil is a representation of nothing.
  * Its underlying representation is JavaScript's null,
  * and is equal to JavaScript's undefined*/
+//https://cljs.github.io/api/syntax/nil*/
 export default isNil;
