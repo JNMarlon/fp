@@ -1,4 +1,4 @@
-import { Iter } from "../@types/@iter";
+import type { Iter } from "../@types/@iter";
 
 export function isIterable<T = unknown>(
   _: Iter<T> | unknown
