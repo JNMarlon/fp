@@ -3200,6 +3200,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fp-ts@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "fp-ts@workspace:."
+  dependencies:
+    "@types/jest": ^29.4.0
+    "@typescript-eslint/eslint-plugin": latest
+    "@typescript-eslint/parser": latest
+    "@webpack-cli/generators": ^3.0.1
+    eslint: ^8.35.0
+    husky: ^8.0.3
+    jest: ^29.4.3
+    jest-environment-jsdom: ^29.4.3
+    lint-staged: ^13.1.2
+    prettier: ^2.8.4
+    ts-jest: ^29.0.5
+    ts-node: ^10.9.1
+    typescript: ^4.9.5
+  languageName: unknown
+  linkType: soft
+
 "fs-minipass@npm:^2.0.0, fs-minipass@npm:^2.1.0":
   version: 2.1.0
   resolution: "fs-minipass@npm:2.1.0"
@@ -3241,26 +3261,6 @@ __metadata:
   checksum: b32fbaebb3f8ec4969f033073b43f5c8befbb58f1a79e12f1d7490358150359ebd92f49e72ff0144f65f2c48ea2a605bff2d07965f548f6474fd8efd95bf361a
   languageName: node
   linkType: hard
-
-"functional@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "functional@workspace:."
-  dependencies:
-    "@types/jest": ^29.4.0
-    "@typescript-eslint/eslint-plugin": latest
-    "@typescript-eslint/parser": latest
-    "@webpack-cli/generators": ^3.0.1
-    eslint: ^8.35.0
-    husky: ^8.0.3
-    jest: ^29.4.3
-    jest-environment-jsdom: ^29.4.3
-    lint-staged: ^13.1.2
-    prettier: ^2.8.4
-    ts-jest: ^29.0.5
-    ts-node: ^10.9.1
-    typescript: ^4.9.5
-  languageName: unknown
-  linkType: soft
 
 "gauge@npm:^3.0.0":
   version: 3.0.2
