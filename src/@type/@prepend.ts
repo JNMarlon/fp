@@ -1,1 +1,1 @@
-export type Prepend<ARR extends unknown[], T> = [T, ...ARR];
+export type Prepend<A extends unknown[], T> = [T, ...A];
