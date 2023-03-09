@@ -1,7 +1,7 @@
 import { Length } from "./@length";
 import { Drop } from "./@drop";
 import { Cast } from "./@cast";
-import { Gaps } from "./@Gaps";
+import { Gaps } from "./@gaps";
 
 export type Curry<F extends (...args: any[]) => any> = <
   T extends any[],
