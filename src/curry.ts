@@ -13,6 +13,6 @@ const curry = <F extends (...args: any[]) => any>(f: F): Curry<F> => {
 
       return next(...local);
     };
-  })();
+  })() as any;
 };
 export default curry;
