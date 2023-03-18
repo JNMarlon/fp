@@ -3,7 +3,6 @@ import { isPromise } from "../src/promise";
 import { range, toAsync } from "../src/internal/internal";
 
 const promiseResolver = <T>(a: T) => Promise.resolve(a);
-//TODO: 여기 통과 안됨 나중에 다시 확인 ㄱ
 describe("toArray", () => {
   describe("sync", () => {
     it("should return 'Array<A>' when 'Iterable<A>' is given as argument  ", () => {
