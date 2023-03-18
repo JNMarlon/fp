@@ -1,4 +1,4 @@
-import { Cast } from "./@cast";
+import { Cast } from "./Cast";
 
 export type CleanGaps<O extends any[]> = {
   [K in keyof O]: NonNullable<O[K]>;

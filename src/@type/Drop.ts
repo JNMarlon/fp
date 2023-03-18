@@ -1,6 +1,6 @@
-import { Prepend } from "./@prepend";
-import { Tail } from "./@tail";
-import { Length } from "./@length";
+import { Prepend } from "./Prepend";
+import { Tail } from "./Tail";
+import { Length } from "./Length";
 
 export type Drop<N extends number, T extends any[], I extends any[] = []> = {
   0: Drop<N, Tail<T>, Prepend<I, any>>;
