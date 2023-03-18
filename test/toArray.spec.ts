@@ -15,7 +15,27 @@ describe("toArray", () => {
         Array.from(range(5)).map(promiseResolver)
       ) as any[];
 
+      //const res = await Promise.allSettled(promises)
+      /*
+      * returns
+      * {
+        res2: [
+          { status: 'fulfilled', value: 0 },
+          { status: 'fulfilled', value: 1 },
+          { status: 'fulfilled', value: 2 },
+          { status: 'fulfilled', value: 3 },
+          { status: 'fulfilled', value: 4 }
+        ]
+      }
+*/
       const res = await Promise.all(promises);
+
+      /*
+       * returns
+       *
+       *{ res: [ 0, 1, 2, 3, 4 ] }
+       *
+       * */
 
       expect(res).toEqual([0, 1, 2, 3, 4]);
     });
