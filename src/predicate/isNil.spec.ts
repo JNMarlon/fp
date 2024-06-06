@@ -1,4 +1,4 @@
-import isNil from "../src/isNil";
+import { isNil } from "./isNil";
 
 describe("isNullable", () => {
   it("should check if given value is `null` or `undefined`", () => {
