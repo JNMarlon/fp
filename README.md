@@ -1,1 +1,1 @@
-### functional-typescript playground
+## ts playground
