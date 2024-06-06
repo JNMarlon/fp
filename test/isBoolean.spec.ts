@@ -1,4 +1,4 @@
-import { isBoolean } from "../src/isBoolean";
+import { isBoolean } from "../src/predicate/isBoolean";
 
 describe("isBoolean", () => {
   it.each([undefined, null, 1, "1", Symbol("1"), () => null])(
