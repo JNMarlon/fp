@@ -1,6 +1,6 @@
+import { range } from "../src/_internal/range";
 import { toArray } from "../src/toArray";
-import { isPromise } from "../src/promise";
-import { range, toAsync } from "../src/internal/internal";
+import { toAsync } from "../src/_internal/toAsync";
 
 const promiseResolver = <T>(a: T) => Promise.resolve(a);
 describe("toArray", () => {
