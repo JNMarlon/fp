@@ -1,6 +1,6 @@
 import { isNil } from "./isNil";
 
-describe("isNullable", () => {
+describe("isNil", () => {
   it("should check if given value is `null` or `undefined`", () => {
     const r1 = isNil(null);
     expect(r1).toEqual(true);
