@@ -1,4 +1,4 @@
-import { isAsyncIterable, isIterable } from "./iter";
+import { isAsyncIterable, isIterable } from "../iter";
 
 async function async<A>(iterable: AsyncIterable<A>): Promise<A[]> {
   const res: A[] = [];
