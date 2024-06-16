@@ -2,10 +2,11 @@ export const assert = (
   condition: boolean,
   error: Error | string = new Error()
 ): asserts condition => {
-  if (condition) return;
-  if (typeof error === "string") {
-    throw new Error(error);
-  } else {
-    throw error;
+  if (!condition) {
+      if (typeof error === "string") {
+          throw new Error(error);
+      } else {
+          throw error;
+      }
   }
 };
